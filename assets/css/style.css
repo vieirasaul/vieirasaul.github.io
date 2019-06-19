@@ -35,8 +35,8 @@
 }
 .menu-bar nav ul{
 	list-style-type: none;
-	width: 400px;
-	margin-top: 20px; 
+	width: 500px;
+	margin-top: 15px; 
 }
 .menu-bar nav ul li a{
 	color: #fff;
@@ -45,6 +45,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	transition: color .3s ease;
+	letter-spacing: 1px;
 }
 .menu-bar nav ul li a:hover{
 	color: #cecece;
@@ -52,6 +53,9 @@
 .banner{
 	height: 100vh;
 	background: url('../img/home-banner.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 }
@@ -66,15 +70,18 @@
 	text-align: center;
 	color: #fff;
 	font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	   -moz-transform: translateX(-50%);
 	    -ms-transform: translateX(-50%);
 	     -o-transform: translateX(-50%);
 	        transform: translateX(-50%);
+}
+#myElement small{
+	display: none;
 }
 .banner .banner-link{
 	font-size: 55px;
@@ -87,6 +94,38 @@
 	    -ms-transform: translateX(-50%);
 	     -o-transform: translateX(-50%);
 	        transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+footer{
+    background: #1b1b1b;
+    padding: 50px 0;
+}
+footer .social-media{
+	font-size: 35px;
+    margin-bottom: 20px;
+}
+footer .social-media i{
+	margin: 0 7px;
+}
+footer .social-media a i{
+	color: #fff;
+	transition: color .3s ease;
+}
+footer .social-media a:hover i{
+	color: #adadad;
+}
+footer .row p{
+	text-align: center;
+	color: #bcbcbc;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
 }
 .slide-bck-bottom {
 	-webkit-animation: slide-bck-bottom 0.7s linear infinite alternate both;
