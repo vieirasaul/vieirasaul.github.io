@@ -141,9 +141,19 @@ footer .social-media a i{
 	color: #fff;
 	transition: color .3s ease;
 }
-footer .social-media a:hover i{
-	color: #adadad;
+footer .social-media a i.fa-facebook-f:hover{
+	color: #3b5998;
 }
+footer .social-media a i.fa-github:hover{
+	color: #6e5494;
+}
+footer .social-media a i.fa-instagram:hover{
+	color: #f77737;
+}
+footer .social-media a i.fa-linkedin-in:hover{
+	color: #0077b5;
+}
+
 footer .row p{
 	text-align: center;
 	color: #bcbcbc;
