@@ -11,3 +11,4 @@ $(document).ready(function(){
       .break()
       .type('Desenvolvedor Front-end')
 });
+
