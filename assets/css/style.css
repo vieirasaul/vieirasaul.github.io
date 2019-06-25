@@ -7,6 +7,10 @@ a{
 	text-decoration: none;
 	color: #000;
 }
+:root{
+	--blue: #4B88A2;
+	--purple: #AEADF0;
+}
 /*flex classes*/
 .flex{
 	display: flex;
@@ -73,8 +77,18 @@ a{
 .menu-bar.animate-menu nav ul li a{
 	font-size: 17px;
 }
-.banner{
+.banner,
+#works,
+#about,
+#contact{
 	height: 100vh;
+}
+#works,
+#about,
+#contact{
+	padding: 100px 0;
+}
+.banner{
 	background: url('../img/home-banner.jpg');
 	background-attachment: fixed;
 	background-position: center;
@@ -118,21 +132,22 @@ a{
 	     -o-transform: translateX(-50%);
 	        transform: translateX(-50%);
 }
-.container{
-	margin: 0 auto;
-	max-width: 1366px;
-}
-#works{
-	padding: 50px;
-}
-.works{
-	padding-bottom: 30px;
-}
-.works h2{
+.section-title{
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 	font-weight: 300;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1366px;
+	width: 100%;
+}
+#works{
+	background-color: var(--blue);
+}
+.works{
+	padding-bottom: 30px;
 }
 .works-grid{
     display: grid;
@@ -181,7 +196,7 @@ a{
 }
 .view-all{
 	margin: 0 auto;
-	border: 1px solid #000;
+	border: 0px solid #000;
     padding: 15px 40px;
 	font-family: 'Montserrat', sans-serif;
 	-webkit-transform: perspective(1px) translateZ(0);
@@ -225,8 +240,18 @@ a{
 }
 
 
+#about{
+    background-color: #fff;
+}
 
 
+
+
+
+
+#contact{
+	background-color: var(--purple);
+}
 footer{
     background: #1b1b1b;
     padding: 50px 0;
