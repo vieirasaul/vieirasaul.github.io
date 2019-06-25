@@ -1,5 +1,5 @@
 $(document).ready(function(){
- new TypeIt('#myElement', {
+	new TypeIt('#myElement', {
       speed: 70,
       cursor: true,
       })
@@ -10,7 +10,22 @@ $(document).ready(function(){
       .pause(500)
       .break()
       .type('e eu sou Desenvolvedor Front-end')
+
+	window.onscroll = function(){
+		if($(window).scrollTop() > 0) {
+			$('.menu-bar').addClass('animate-menu');
+		}else{
+			$('.menu-bar').removeClass('animate-menu');
+		}  	
+  	}
+	
 });
+
+
+
+
+
+
 
 // ROLAGEM DE PÁGINA SUAVE
     $('a[href*="#"]')
