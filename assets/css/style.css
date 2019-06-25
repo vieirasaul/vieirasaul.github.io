@@ -298,9 +298,23 @@ a{
 }
 #contact .normal-text{
 	text-align: center;
+	line-height: 27px;
+	margin-top: 50px;
 }
-
-
+.contact-email{
+    margin: 50px auto 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    width: fit-content;
+}
+#contact .social-media{
+	margin-top: 50px;
+}
+#contact .social-media a i{
+	color: #000;
+    margin: 0 20px;
+    font-size: 45px;
+}
 .back-to-top{
 	border: 0;
 	background-color: #000;
@@ -322,27 +336,31 @@ footer{
     background: #1b1b1b;
     padding: 50px 0;
 }
-footer .social-media{
+.social-media{
     margin-bottom: 20px;
 }
-footer .social-media i{
+.social-media i{
 	margin: 0 7px;
 	font-size: 35px;
 }
-footer .social-media a i{
+.social-media a i{
 	color: #fff;
 	transition: color .3s ease;
 }
-footer .social-media a i.fa-facebook-f:hover{
+#contact .social-media a i.fa-facebook-f:hover,
+.social-media a i.fa-facebook-f:hover{
 	color: #3b5998;
 }
-footer .social-media a i.fa-github:hover{
+#contact .social-media a i.fa-github:hover,
+.social-media a i.fa-github:hover{
 	color: #6e5494;
 }
-footer .social-media a i.fa-instagram:hover{
+#contact .social-media a i.fa-instagram:hover,
+.social-media a i.fa-instagram:hover{
 	color: #f77737;
 }
-footer .social-media a i.fa-linkedin-in:hover{
+#contact .social-media a i.fa-linkedin-in:hover,
+.social-media a i.fa-linkedin-in:hover{
 	color: #0077b5;
 }
 
