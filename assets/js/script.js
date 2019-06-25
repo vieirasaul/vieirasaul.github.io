@@ -16,8 +16,19 @@ $(document).ready(function(){
 			$('.menu-bar').addClass('animate-menu');
 		}else{
 			$('.menu-bar').removeClass('animate-menu');
+		}
+
+		let bannerHeight = $('.banner').height();
+		if($(window).scrollTop() > bannerHeight) {
+			$('.back-to-top').fadeIn();
+		}else{
+			$('.back-to-top').fadeOut();
 		}  	
   	}
+
+  	$('.back-to-top').click(function(){
+		$("html, body").animate({scrollTop : 0}, 700);
+	});
 	
 });
 
