@@ -86,7 +86,7 @@ a{
 #works,
 #about,
 #contact{
-	padding: 100px 0;
+	/*padding: 50px 0;*/
 }
 .banner{
 	background: url('../img/home-banner.jpg');
@@ -169,6 +169,10 @@ a{
 	margin: 0 auto;
 	max-width: 1366px;
 	width: 100%;
+}
+.normal-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
 }
 #works{
 	/*background-color: #E9EBED;*/
@@ -270,13 +274,30 @@ a{
 #about{
     background-color: #fff;
 }
-
-
-
+.avatar{
+	border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    border: 1px solid #cecece;
+    background-size: cover;
+    box-shadow: 4px 3px 2px #cecece;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px auto 50px;
+}
+.about-avatar-text p{
+	margin: 20px auto 0;
+}
+.container.container-text{
+	max-width: 700px;
+}
 
 
 #contact{
 	/*background-color: var(--purple);*/
+}
+#contact .normal-text{
+	text-align: center;
 }
 
 
