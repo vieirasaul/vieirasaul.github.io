@@ -144,7 +144,7 @@ a{
 	width: 100%;
 }
 #works{
-	background-color: var(--blue);
+	/*background-color: #E9EBED;*/
 }
 .works{
 	padding-bottom: 30px;
@@ -196,7 +196,7 @@ a{
 }
 .view-all{
 	margin: 0 auto;
-	border: 0px solid #000;
+	border: 0px;
     padding: 15px 40px;
 	font-family: 'Montserrat', sans-serif;
 	-webkit-transform: perspective(1px) translateZ(0);
@@ -220,7 +220,7 @@ a{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #fff;
+    background: #cecece;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition-property: transform;
@@ -244,13 +244,44 @@ a{
     background-color: #fff;
 }
 
+.divider
+{
+	position: relative;
+	height: 1px;
+}
 
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.div-arrow-down:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -7px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background-color: white;
+	border-bottom: 1px solid rgb(48,49,51);
+	border-right: 1px solid rgb(48,49,51);
+}
 
 
 
 
 #contact{
-	background-color: var(--purple);
+	/*background-color: var(--purple);*/
 }
 footer{
     background: #1b1b1b;
