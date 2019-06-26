@@ -218,7 +218,7 @@ a{
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
 	height: 100%;
-	transition: visibility .5s ease, opacity .5s ease, background-color .5s ease;
+	transition: visibility .8s ease, opacity .8s ease, background-color .8s ease;
 }
 .works-grid .grid-item:hover .item-detail{
 	visibility: visible;
@@ -235,7 +235,7 @@ a{
 	height: 3px;
 	background-color: #fff;
 	width: 0;
-	transition: width 1s ease;
+	transition: width .8s ease;
 }
 .works-grid .grid-item:hover .item-title::after{
 	width: 100%;
