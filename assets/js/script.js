@@ -3,13 +3,13 @@ $(document).ready(function(){
       speed: 70,
       cursor: true,
       })
-      .type('Olá, visitante!')
+      // .type('Olá, visitante!')
+      // .pause(500)
+      // .break()
+      .type('Meu nome é Saul Vieira,')
       .pause(500)
       .break()
-      .type('Meu nome é Saul Vieira')
-      .pause(500)
-      .break()
-      .type('e eu sou Desenvolvedor Front-end')
+      .type('Desenvolvedor Front-end.')
 
 	window.onscroll = function(){
 		if($(window).scrollTop() > 0) {

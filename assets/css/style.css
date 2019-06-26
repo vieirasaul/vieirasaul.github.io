@@ -45,6 +45,13 @@ a{
 	height: 70px;
 	transition: height .3s ease;
 }
+.menu-bar .language{
+	width: 95px;
+	transition: width .3s ease;
+}
+.menu-bar .language img{
+	height: 30px;
+}
 .menu-bar nav ul{
 	list-style-type: none;
 	width: 500px;
@@ -59,7 +66,8 @@ a{
 	font-size: 20px;
 	transition: color .3s ease;
 	letter-spacing: 1px;
-	transition: font-size .3s ease;
+	transition: font-size .3s ease, height .3s ease;
+    height: 30px;
 }
 .menu-bar nav ul li a:hover{
 	color: #cecece;
@@ -71,11 +79,18 @@ a{
 .menu-bar.animate-menu .logo img{
 	height: 40px;
 }
+.menu-bar.animate-menu .language{
+	width: 65px;
+}
+.menu-bar.animate-menu .language img{
+	height: 20px;
+}
 .menu-bar.animate-menu nav ul{
 	width: 370px;
 }
 .menu-bar.animate-menu nav ul li a{
 	font-size: 16px;
+	height: 20px;
 }
 .banner,
 #works,
