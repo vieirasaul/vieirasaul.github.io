@@ -6,7 +6,7 @@ $(document).ready(function(){
       // .type('Olá, visitante!')
       // .pause(500)
       // .break()
-      .type('Meu nome é Saul Vieira,')
+      .type('Meu nome é Saul Vieira.')
       .pause(500)
       .break()
       .type('Desenvolvedor Front-end.')
@@ -29,6 +29,12 @@ $(document).ready(function(){
   	$('.back-to-top').click(function(){
 		$("html, body").animate({scrollTop : 0}, 700);
 	});
+
+	// $('.contact-email').click(function(){
+	// 	$(this).select();
+ //     	document.execCommand("copy");
+	// });
+	
 	
 });
 
