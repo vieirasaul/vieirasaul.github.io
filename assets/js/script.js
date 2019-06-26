@@ -19,7 +19,7 @@ $(document).ready(function(){
 		}
 
 		let bannerHeight = $('.banner').height();
-		if($(window).scrollTop() > bannerHeight) {
+		if($(window).scrollTop() > bannerHeight - 70) {
 			$('.back-to-top').fadeIn();
 		}else{
 			$('.back-to-top').fadeOut();
